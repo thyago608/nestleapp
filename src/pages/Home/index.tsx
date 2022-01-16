@@ -4,7 +4,7 @@ export function Home(){
     const [count, setCount] = useState(0);
     
     const handleSetCount = () => {
-        setCount(oldState => oldState + 1);
+        setCount(oldState => oldState + 2);
     }
     
     return (
