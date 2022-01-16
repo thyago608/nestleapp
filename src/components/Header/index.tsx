@@ -1,4 +1,4 @@
-export function Header(){
+const Header:React.FC = () => {
     return(
         <header>
             <h1>logo</h1>
@@ -12,3 +12,5 @@ export function Header(){
         </header>
     )
 }
+
+export default Header;
